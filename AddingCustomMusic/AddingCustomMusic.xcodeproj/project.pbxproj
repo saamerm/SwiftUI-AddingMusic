@@ -11,6 +11,9 @@
 		76F3181727D2B1270031EE92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F3181627D2B1270031EE92 /* ContentView.swift */; };
 		76F3181927D2B1290031EE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F3181827D2B1290031EE92 /* Assets.xcassets */; };
 		76F3181C27D2B1290031EE92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F3181B27D2B1290031EE92 /* Preview Assets.xcassets */; };
+		76F3182327D2B14F0031EE92 /* BackgroundAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F3182227D2B14F0031EE92 /* BackgroundAudioPlayer.swift */; };
+		76F3182527D2B16E0031EE92 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F3182427D2B16E0031EE92 /* PlaySound.swift */; };
+		76F3182727D2B1E00031EE92 /* pmSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76F3182627D2B1E00031EE92 /* pmSong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		76F3181627D2B1270031EE92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76F3181827D2B1290031EE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F3181B27D2B1290031EE92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76F3182227D2B14F0031EE92 /* BackgroundAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioPlayer.swift; sourceTree = "<group>"; };
+		76F3182427D2B16E0031EE92 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		76F3182627D2B1E00031EE92 /* pmSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pmSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				76F3181627D2B1270031EE92 /* ContentView.swift */,
 				76F3181827D2B1290031EE92 /* Assets.xcassets */,
 				76F3181A27D2B1290031EE92 /* Preview Content */,
+				76F3182227D2B14F0031EE92 /* BackgroundAudioPlayer.swift */,
+				76F3182427D2B16E0031EE92 /* PlaySound.swift */,
+				76F3182627D2B1E00031EE92 /* pmSong.mp3 */,
 			);
 			path = AddingCustomMusic;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F3182727D2B1E00031EE92 /* pmSong.mp3 in Resources */,
 				76F3181C27D2B1290031EE92 /* Preview Assets.xcassets in Resources */,
 				76F3181927D2B1290031EE92 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F3181727D2B1270031EE92 /* ContentView.swift in Sources */,
+				76F3182527D2B16E0031EE92 /* PlaySound.swift in Sources */,
 				76F3181527D2B1270031EE92 /* AddingCustomMusicApp.swift in Sources */,
+				76F3182327D2B14F0031EE92 /* BackgroundAudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
